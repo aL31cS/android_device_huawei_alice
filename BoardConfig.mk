@@ -76,3 +76,17 @@ RECOVERY_GRAPHICS_FORCE_USE_LINELENGTH := true
 BACKLIGHT_PATH := /sys/class/leds/lcd_backlight0/brightness
 TW_BRIGHTNESS_PATH := $(BACKLIGHT_PATH)
 TW_CUSTOM_BATTERY_PATH := /sys/class/power_supply/Battery
+
+#SHRP
+SHRP_PATH := device/huawei/alice
+SHRP_MAINTAINER := al31cS
+SHRP_DEVICE_CODE := alice
+SHRP_REC_TYPE := Normal
+SHRP_DEVICE_TYPE := A_Only
+SHRP_EXPRESS := true
+SHRP_EDL_MODE := 0
+SHRP_EXTERNAL := /external_sd 
+SHRP_INTERNAL := /sdcard 
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_REC := /dev/block/platform/hi_mci.0/by-name/recovery
