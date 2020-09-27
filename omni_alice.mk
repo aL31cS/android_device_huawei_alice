@@ -12,15 +12,23 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk) -- only for 64bit phones
 $(call inherit-product, device/huawei/alice/full_alice.mk)
+$(call inherit-product, device/huawei/alice/device.mk)
 
 # Inherit some common TWRP stuff.
-$(call inherit-product, vendor/omni/config/common_full_phone.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
+BOARD_VENDOR := hi6210sft
+PRODUCT_BRAND := Huawei
+PRODUCT_DEVICE := P8lite
 PRODUCT_NAME := omni_alice
+PRODUCT_MANUFACTURER := huawei
+PRODUCT_MODEL := alice
+TARGET_VENDOR := hi6210sft
 
 PRODUCT_GMS_CLIENTID_BASE := android-huawei
