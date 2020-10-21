@@ -34,6 +34,7 @@ ARCH_ARM_HAVE_NEON := true
 ARCH_ARM_HIGH_OPTIMIZATION := true
 TARGET_USES_64_BIT_BINDER := true
 
+
 TARGET_BOARD_PLATFORM := hi6210sft
 BOARD_VENDOR_PLATFORM := hi6210sft
 
@@ -90,3 +91,5 @@ SHRP_INTERNAL := /sdcard
 SHRP_OTG := /usb_otg
 SHRP_FLASH := 1
 SHRP_REC := /dev/block/platform/hi_mci.0/by-name/recovery
+SHRP_AB := false
+SHRP_NO_SAR_AUTOMOUNT := true
