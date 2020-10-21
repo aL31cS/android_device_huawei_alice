@@ -1,0 +1,14 @@
+[
+	{
+		"remote":"github",
+		"repository":"OpenKirin/android_vendor_huawei_alice",
+		"target_path":"vendor/huawei/alice",
+		"revision":"7.x"
+	},
+  {
+		"remote":"github",
+		"repository":"OpenKirin/android_kernel_huawei_hi6210sft",
+		"target_path":"kernel/huawei/hi6210sft",
+		"revision":"nougat"
+	}
+]
