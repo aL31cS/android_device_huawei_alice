@@ -91,5 +91,3 @@ SHRP_INTERNAL := /sdcard
 SHRP_OTG := /usb_otg
 SHRP_FLASH := 1
 SHRP_REC := /dev/block/platform/hi_mci.0/by-name/recovery
-SHRP_AB := false
-SHRP_NO_SAR_AUTOMOUNT := true
