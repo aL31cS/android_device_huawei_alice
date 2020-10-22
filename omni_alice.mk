@@ -15,7 +15,7 @@
 $(call inherit-product, device/huawei/alice/full_alice.mk)
 
 # Inherit some common TWRP stuff.
-$(call inherit-product, vendor/omni/config/common_full_phone.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
