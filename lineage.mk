@@ -14,5 +14,8 @@
 
 $(call inherit-product, device/huawei/alice/full_alice.mk)
 
-PRODUCT_NAME := lineage_alice
+PRODUCT_NAME := aosp_alice
 PRODUCT_DEVICE := alice
+PRODUCT_BRAND := Huawei
+PRODUCT_MODEL := PixelExperience on alice
+PRODUCT_MANUFACTURER := Huawei
