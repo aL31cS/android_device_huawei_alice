@@ -97,8 +97,8 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_HEADER_ARCH := arm64
 BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_KERNEL_SOURCE := kernel/huawei/alice
-TARGET_KERNEL_CONFIG := alice_defconfig
+TARGET_KERNEL_SOURCE := kernel/alice
+TARGET_KERNEL_CONFIG := maru_alice_defconfig
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
